@@ -450,3 +450,142 @@ html.js .reveal.is-visible { opacity: 1; transform: translateY(0); }
 .contact::before, .contact::after { z-index: 0; pointer-events: none; }
 
 
+/* Black and gold theme */
+:root {
+  color-scheme: dark;
+  --paper: #11110f;
+  --white: #1b1a16;
+  --ink: #f3efe5;
+  --muted: #b4ad9e;
+  --line: #38352d;
+  --blue: #e3c36c;
+  --blue-dark: #c9a950;
+  --blue-pale: #2b271b;
+  --lime: #dfc97f;
+  --coral: #e0a16d;
+  --sunshine: #f0d78f;
+  --mint: #b7bd87;
+}
+body { background: var(--paper); color: var(--ink); }
+.site-header { background: rgb(17 17 15 / 92%); border-bottom-color: rgb(227 195 108 / 13%); }
+.site-footer { background: #11110f; }
+.section-tint { background: #191814; }
+.about.section-tint { background: #191814; }
+.projects.section-tint { background: #171713; }
+.period, .wordmark span, .hero-headline span, .section-number, .text-link,
+.text-link span, .future-note span, .footer-socials span { color: var(--blue); }
+.site-nav { color: #c8c1b3; }
+.site-nav .nav-contact { border-color: #514a39; color: var(--ink); }
+.site-nav .nav-contact span { color: var(--blue); }
+.site-nav a:hover, .footer-socials a:hover { color: var(--sunshine); }
+.eyebrow, .hero-note, .heading-aside, .about-copy p, .skill-note,
+.project-description, .project-links-note, .exploring-intro,
+.learning-item p, .learning-footnote, .footer-note, .copyright { color: var(--muted); }
+.hero-name-first { color: var(--sunshine); }
+.hero-art::before { background: conic-gradient(from 220deg, #b9923e, #edcf7c 42%, #9b7433 70%, #d8b75c); opacity: .23; }
+.art-grid { background-image: linear-gradient(rgb(227 195 108 / 5%) 1px, transparent 1px), linear-gradient(90deg, rgb(227 195 108 / 5%) 1px, transparent 1px); }
+.art-center { border-color: #5b4b2c; background: radial-gradient(circle at 50% 40%, #28251d 0%, #1d1b16 68%, #191814 100%); box-shadow: 0 20px 60px rgb(0 0 0 / 30%); }
+.art-caption, .art-index { color: #b7a978; }
+.art-spark, .orbit-dot-one { color: var(--sunshine); background-color: var(--sunshine); }
+.orbit { border-color: rgb(227 195 108 / 22%); }
+.orbit-inner { border-color: rgb(227 195 108 / 28%); }
+.orbit-dot { border-color: var(--paper); box-shadow: 0 0 0 1px rgb(227 195 108 / 35%); }
+.floating-card { border-color: #48402d; background: rgb(30 28 22 / 95%); color: #bcb4a3; box-shadow: 0 10px 28px rgb(0 0 0 / 28%); }
+.floating-card strong { color: var(--ink); }
+.float-icon, .float-top .float-icon { color: #f0d78f; background: #39311d; }
+.float-bottom .float-icon { color: #e7b984; background: #3a2d20; }
+.scroll-cue { color: #b4ad9e; }
+.scroll-cue-line, .note-line { background: #88764d; }
+.section-heading h2 > span:not(.period) { color: #c8c0b0; }
+.section-number { color: #11110f; background: #e3c36c; }
+.education-card, .skill-card, .project-card { border-color: #38352d; background: #1b1a16; }
+.education-card { box-shadow: 0 12px 32px rgb(0 0 0 / 18%); }
+.education-icon { color: #f1d78b; background: #38301c; }
+.card-kicker, .education-bottom, .year-pill { color: #b7af9e; }
+.education-card h3 { color: #f3efe5; }
+.education-degree { color: #e3c36c; }
+.education-bottom { border-top-color: #39362e; }
+.year-pill { border-color: #514832; background: #262319; }
+.education-watermark { color: rgb(227 195 108 / 7%); }
+.skill-card:nth-child(1) { border-top-color: #e3c36c; }
+.skill-card:nth-child(2) { border-top-color: #c99c52; }
+.skill-card:nth-child(3) { border-top-color: #f0d78f; }
+.skill-card:nth-child(4) { border-top-color: #aab579; background: #1b1b16; }
+.skill-icon, .icon-blue, .icon-lilac, .icon-peach, .icon-lime { color: #f1d78b; background: #302a1b; }
+.icon-lilac { color: #e5bd72; background: #302619; }
+.icon-peach { color: #f0c192; background: #33251b; }
+.icon-lime { color: #d4d58e; background: #292a1c; }
+.tag-list li { border-color: #464133; color: #d4cbb8; background: #23221d; }
+.skill-card-learning .tag-list li { border-color: #474535; background: #202019; }
+.tag-list li:hover { border-color: #9e8244; background: #302b1e; }
+.project-card::before { background: linear-gradient(90deg, #e3c36c, #f5e2a4, #9f7837); }
+.project-truresq::before { background: linear-gradient(90deg, #b7bd87, #e3c36c, #92784a); }
+.project-visual { background: #201e18; }
+.pocksy-visual { background: radial-gradient(ellipse at 70% 25%, #39301d, #242119 62%, #1a1915); }
+.pocksy-visual::before, .pocksy-visual::after { border-color: rgb(227 195 108 / 17%); }
+.pocksy-window { border-color: #49402d; background: #24221b; box-shadow: 0 15px 38px rgb(0 0 0 / 30%); }
+.mini-window-bar { border-bottom-color: #403b2e; }
+.mini-window-bar > span:not(.window-label) { background: #665d49; }
+.mini-window-bar > span:first-child { background: #e0a16d; }
+.window-label, .mock-balance-label, .mock-balance span, .member-count,
+.expense-name small { color: #b0a78f; }
+.mock-balance { color: #f3e8c4; }
+.member-avatar { border-color: #24221b; color: #f1d78b; background: #4a4027; }
+.avatar-two { color: #efbd96; background: #4b3025; }
+.avatar-three { color: #d2d79a; background: #353a25; }
+.avatar-add { color: #e7d6aa; background: #39352a; }
+.mock-expense { border-top-color: #403b2e; }
+.expense-emoji { background: #352b3d; }
+.expense-emoji-lime { background: #303622; }
+.expense-name, .expense-amount { color: #e8e1d3; }
+.visual-sticker { border-color: #77633a; color: #ead9a9; background: #2d281b; box-shadow: 0 7px 18px rgb(0 0 0 / 25%); }
+.visual-sticker strong { color: #f0d78f; }
+.project-meta { color: #b7af9e; }
+.project-type { color: #f1d78b; background: #38301d; }
+.type-concept { color: #d4d5a1; background: #2d301f; }
+.project-content h3 { color: #f3efe5; }
+.project-tagline { color: #e4d6b5; }
+.project-links-note { border-top-color: #39362e; }
+.truresq-visual { background: radial-gradient(ellipse at 60% 30%, #303321, #201f18 70%); }
+.truresq-visual::before { background-image: radial-gradient(rgb(213 199 132 / 20%) .75px, transparent .75px); }
+.radar { border-color: rgb(210 190 121 / 28%); }
+.radar-two { border-color: rgb(210 190 121 / 38%); }
+.radar-center { border-color: #62553a; color: #e3c36c; background: #28251c; box-shadow: 0 4px 20px rgb(0 0 0 / 24%); }
+.incident-card { border-color: #4b4636; background: rgb(38 37 29 / 96%); box-shadow: 0 8px 22px rgb(0 0 0 / 25%); }
+.incident-card strong { color: #eee5d1; }
+.incident-card small, .visual-caption { color: #b9b094; }
+.match-label, .incident-arr { color: #e3c36c; }
+.marker-red { background: #e29b67; box-shadow: 0 0 0 4px #3b2b20; }
+.marker-green { background: #b9c17f; box-shadow: 0 0 0 4px #2e3221; }
+.learning-list, .learning-item { border-color: #39362e; }
+.learning-index, .learning-status { color: #b9b094; }
+.learning-status i { background: #d7c06c; }
+.learning-item:last-of-type .learning-status i { background: #aaa28e; }
+.future-note { color: var(--muted); }
+.contact { background: #1b1913; border-top: 1px solid #3b3323; }
+.contact::before { background: radial-gradient(circle, rgb(227 195 108 / 17%), rgb(227 195 108 / 0%) 68%); }
+.contact::after { background: radial-gradient(circle, rgb(184 144 69 / 12%), rgb(184 144 69 / 0%) 70%); }
+.contact-kicker, .contact-inner > p { color: #c3bba9; }
+.contact h2 span { color: #e3c36c; }
+.contact-asterisk { color: rgb(227 195 108 / 13%); }
+.button-primary { color: #14120d; background: #e3c36c; }
+.button-primary:hover { color: #11110f; background: #f0d78f; }
+.button-quiet { border-color: #504833; color: #eee7d8; }
+.button-quiet:hover { border-color: #e3c36c; color: #f0d78f; }
+.button-light { color: #14120d; background: #e3c36c; }
+.button-light:hover { background: #f0d78f; }
+.button-outline-light { border-color: #76633c; color: #f1e8d4; }
+.button-outline-light:hover { border-color: #e3c36c; color: #f0d78f; background: rgb(227 195 108 / 8%); }
+.footer-inner { border-top-color: #39362e; }
+.footer-name { color: #efe8d9; }
+.footer-socials { color: #cfc6b5; }
+.copyright, .footer-note { color: #aaa292; }
+:focus-visible { outline-color: #f0d78f; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-art::before { animation: none; }
+}
+.menu-toggle { border-color: #514a39; background: #191814; }
+.menu-toggle span { background: #f3efe5; }
+.status-dot { background: #d7b95e; box-shadow: 0 0 0 4px rgb(215 185 94 / 18%); }
+
